@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>float3</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		a:link, a:visited{
+			color: #fff;
+			text-decoration: none; 
+		}
+		li{list-style: none;
+		}
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		.fox:after{
+			content: "";
+			display: inline-block;
+			clear: both;
+		}
+
+		div.nav{
+			width: 500px;
+			background-color: skyblue;
+			margin: 10px auto;
+		}
+		div.nav>ul{}
+		div.nav>ul>li{
+			float: left;
+			width: 100px;height: 40px;
+			text-align: center;
+			line-height: 40px;
+			cursor: pointer;
+		}
+			div.nav>ul>li:hover{
+				background-color: black;
+				color:white;
+		}
+
+		h1{
+			text-align: center;color:darkblue;
+			margin: 10px;
+		}
+
+		   	div.vis{
+			width: 800px;height: 300px;
+			background-color:silver;
+			margin: 10px auto;
+		}
+		div.asi{
+			width: 250px;height: 250px;
+			background-color: orange;
+			margin: 10px auto;
+		}
+		div.asi>ul{}
+		div.asi>ul>li{
+			float: left;
+			width: 100px;height: 50px;
+			text-align: center;
+			line-height: 100px;
+		}
+
+		div.con{
+			width: 550px;height: 250px;
+			background-color: green;
+			margin: 10px auto;
+		}
+		div.con>ul{}
+		div.con>ul>li{
+			float: right;
+			width: 100px;height: 40px;
+			text-align: center;
+			line-height: 40px;
+		}
+		div.fox>div.asi{
+			float: left; width: 250px;height: 300px;
+			background-color: orange;
+		}
+		div.fox>div.con{
+		float: right;width: 550px;height: 300px;
+		background-color: green;
+		}	
+	</style>
+
+</head>
+<body>
+	<h1>LOGO</h1>
+	<div class="nav">
+		<ul class="clearfix">
+			<li>menu1</li>
+			<li>menu2</li>
+			<li>menu3</li>
+			<li>menu4</li>
+			<li>menu5</li>
+		</ul>
+		</div>
+		<div class="vis">
+			<ul class="clearfix">
+			<li>visual slider</li>
+		</div>
+<div class="fox">
+		<div class="asi">
+			<li>aside</li>
+		<div class="con">
+			<li>content</li>
+		</div>
+</body>
+</html>

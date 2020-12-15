@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>float3</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		a:link, a:visited{
+			color: #fff;
+			text-decoration: none; 
+		}
+		li{list-style: none;
+		}
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		div.nv{
+			width: 500px;
+			background-color: skyblue;
+			margin: 0 auto;
+		}
+		div.nv>ul{}
+		div.nv>ul>li{
+			float: left;
+			width: 100px;height: 40px;
+			text-align: center;
+			line-height: 40px;
+			cursor: pointer;
+		}
+			div.nv>ul>li:hover{
+				background-color: #ccc;
+		}
+
+		h1{
+			text-align: center;color:darkred;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1>LOGO</h1>
+	<div class="nv">
+		<!-- ul>li*5>{menu$} -->
+		<ul class="clearfix">
+			<li>메뉴1</li>
+			<li>메뉴2</li>
+			<li>메뉴3</li>
+			<li>메뉴4</li>
+			<li>메뉴5</li>
+		</ul>
+
+
+	</div>
+</body>
+</html>

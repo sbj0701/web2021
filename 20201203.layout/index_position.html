@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<style>
+	/*reset*/
+	*{margin: 0;padding: 0;}
+	a:link, a:visited{color: #000;text-decoration: none;}
+	li{list-style:none;}
+	.clearfile:after{content:"";display: block;clear:both;}
+
+	body{background-image:url(../images/bg_grid.gif);}
+
+		/*background-repeat: no-repeat; repeat-x  repeat-y 반복*/
+
+		div{width: 200px;height: 200px;}
+		/*div.box1,div.box2,div.box3,div.box4{background-color: violet;}*/
+		div.box1{background-color: violet;
+			position: absolute;
+			left: 0;top: 0;
+		/*position: relative;
+		left:100px;top:100px;*/
+		}
+		div.box2{background-color: skyblue;
+		position: absolute;
+		right: 0;top: 0;
+
+/*		position: relative;
+		left: 200px;top:-200px;*/
+		}
+		div.box3{background-color: orange;
+			position: absolute;
+			right: 0;bottom: 0;}	
+
+		div.box4{background-color: yellow;
+			position: absolute;
+			left: 0;bottom: 0;}
+</style>
+
+</head>
+<body>
+
+<div class="box1">1</div>
+<div class="box2">2</div>
+<div class="box3">3</div>
+<div class="box4">4</div>
+
+	
+</body>
+</html>
