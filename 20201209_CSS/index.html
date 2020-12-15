@@ -4,74 +4,87 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>text shadow</title>
-	<link rel="stylesheet" href="../css/reset.css"> <!-- link.css -->
+	<link rel="stylesheet" href="../css/reset.css"> <!-- link:css -->
 	<style>
-		.box{width: 300px;height: 300px;
-/*			background-image: url(../images/testimg.jpg);
+		.box{
+			width: 300px;height: 300px;
+			/*background-image: url(../images/testimg.jpg) ;
 			background-repeat: no-repeat;
 			background-position: center;*/
-		background: url(../images/testimg.jpg);
+			background:url(../images/testimg.jpg);
 		}
-		h3{
-			_background:pink;color:block;
-			line-height: 300px;text-align: center;
-			}
-			.txt{text-shadow: 1px 1px 5px #000;}
-			img{display: block;}
-
-			.box1{width: 500px;
-				border:1px solid #000;
-				padding: 10px;
-			}
-
-			.box1 h3{white-space: nowrap;
-				text-overflow: ellipsis;
-				overflow: hidden;}
-
-			.box2{display: table-cell;
-				  width: 500px;height: 300px;
-				  border:1px solid #ccc;
-}
-			.box2 h3{
-				display:table-cell;
-				vertical-align: middle;
-				  text-align: center;
-				  height: 300px;
-				  width: 500px;}
+		.box h3{
+			_background:pink;color:white;
+			line-height:300px;text-align: center;
 			
-			.box3{width: 500;height: 500px;
-				background-color: skyblue; padding: 20px;
-				  box-sizing: border-box;}
+		}
+		.txt{text-shadow:0px 0px 5px #000;}
+		img{display: block;}
 
-			.box3 h3{
-				visibility: hidden;
-			}
-			.box3 p{opacity: 0.5;}
+		.box1{
+			width: 500px;
+			border:1px solid #000;
+			padding:10px;
+		}
+		.box1 h3{
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
 
-			.box4{width: 300px;height: 300px;border: 1px solid #000;
-				overflow-y:scroll; padding: 20px;
-				box-sizing: border-box;
-				text-align: justify;
+		.box2{
+			display:table-cell;
+			width: 500px;height: 300px;
+			border:1px solid #ccc;
+			
+		}
+		.box2 h3{
 
-			}
+			_display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			height: 300px;
+			width: 500px;
+		}
+		.box3{
+			width: 500px;height: 500px;
+			background:skyblue;padding: 20px;
+			box-sizing: border-box
+		}
+		.box3 h3{
+			_display: none;
+			visibility: hidden;
+		}
+		.box3 p{opacity:0.5;}
+
+		.box4{
+			width: 500px;height: 100px;
+			border: 1px solid #000;
+			overflow-y: scroll;padding: 20px;
+			box-sizing: border-box;
+			text-align: justify;
+		}
 	</style>
 </head>
 <body>
 	<div class="box">
-		<h3><span class="txt">안녕하세요</span></h3>
+		<h3 class="txt">안녕하세요</h3>
 	</div>
 	<div class="box1">
-		<h3>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Molestias eveniet temporibus, nulla nihil modi, expedita voluptates totam neque dolor suscipit unde ad, fugit quia accusantium amet dolore, consequuntur ut nisi.</h3>
-		</div>
-		<div class="box2">
-			<h3>text</h3>
-		</div>
-		<div class="box3">
-			<h3>안녕하세요</h3>
-			<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquid veniam ipsa, voluptates! Dolore, iure, aliquam. Voluptatum quidem aut neque corrupti consequatur rem placeat architecto commodi, quasi ut quisquam ea.</p>
-		</div>
+		<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus fugit impedit aspernatur numquam quibusdam adipisci, esse pariatur modi facere tenetur dolorem commodi nostrum minus nulla, blanditiis corporis eveniet iste.</h3>
+	</div>
 
-		<div class="box4">
-			<h3>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Quasi hic numquam eligendi in, incidunt, perferendis? Eaque eligendi maxime molestiae harum expedita est tenetur, excepturi, dolore veniam accusantium, minus provident numquam?</h3></div>
+	<div class="box2">
+		<h3>text</h3>
+	</div>
+	<div class="box3">
+		<h3>안녕하세요</h3>
+		<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nam veniam soluta illo, temporibus dolores repellendus, dolorum doloribus aliquid cupiditate nihil, fuga! At enim vel voluptates eveniet error dolor aperiam.</p>
+	</div>
+
+	<div class="box4">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Iure, tenetur quidem, mollitia ut unde consequatur repellat sunt quas sint dignissimos beatae necessitatibus eveniet, doloribus enim maiores, eum! Adipisci veritatis ducimus nihil ipsam error non eaque, voluptatibus ratione corrupti. Adipisci soluta veritatis, aliquid pariatur, deserunt aperiam, accusantium facere numquam enim nisi sed, delectus autem dolore corrupti harum natus est laborum nesciunt! Dolores impedit, possimus rerum. A qui eum ipsa tenetur cumque voluptatem nemo suscipit consectetur voluptas voluptatum atque, obcaecati deleniti placeat, maxime iure, iusto magnam odit voluptate natus consequuntur sint excepturi impedit cupiditate. Iure nemo, nesciunt saepe, animi quo molestias atque?</p>
+	</div>
+	
 </body>
 </html>
