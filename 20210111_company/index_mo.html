@@ -12,12 +12,33 @@
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
 		$(document).ready(function(){
+
 			$(".slider").bxSlider();
 			$(".slider1st").bxSlider({
 				controls:false,
 				pager:false
 			});
+
+			$(".toggleMenu").click(function(){
+				var toggle = $(".toggleMenu").attr("class");
+				$("toggleMenu").attr("class"); //get
+				console.log(toggle);
+				if(toggle == "toggleMenu"){
+					$(".toggleMenu").addClass("change");
+					$("#main_menu").stop().animate({left:0},300)
+				}else{
+					$(".toggleMenu").removeClass("change");
+					$("#main_menu").stop().animate({left:"-100%"},300)
+				}
+
+			});
+
+			$(window).resize(function(){
+				$("toggleMenu").removeClass("change");
+				$("#main_menu").removeClass("style");
+			});
 		});
+
 	</script>
 </head>
 <body>
