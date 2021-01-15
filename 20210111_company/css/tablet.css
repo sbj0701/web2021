@@ -24,11 +24,15 @@ header#main_header{height:1950px;position: relative;margin-bottom:100px;}
 
 }
 .sliderWrap li.slider_1st{
-	background-image: url(../images/mainimg01.jpg);
+	background-image: url(../images/arkangel.jpg);
 }
 .sliderWrap li.slider_2st{
-	background-image: url(../images/mainimg02.jpg);
+	background-image: url(../images/.jpg);
 }
+.sliderWrap li.slider_3st{
+	background-image: url(../images/.jpg);
+}
+
 
 
 .sliderWrap .slider_txt{
