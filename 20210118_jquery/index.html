@@ -10,13 +10,28 @@
 	<script src="../js/jquery-3.1.1.min.js"></script>
 	<script>
 
-	window.onload = function(){
-	document.getElementsByName("box")[0].style.displat = "none";
-	};
+	// window.onload = function(){
+	// document.getElementsByName("box")[0].style.displat = "none";
+	// };           13~15 <--26Line same
+	$(document).ready(function(){
+		//$(".box")hide(); // display:none
+		$(".btnshow").hide();	
+		$(".btn").click(function(){
+			$(".box").hide();
+			$(".btn").hide();
+			$(".btnshow").show();
+	});
+		$(".btnshow").click(function(){
+		$(".box").show();
+		$(".btn").show();
+		$(".btnshow").hide();
+		});	
+	});
 	</script>
 </head>
 <body>
-
+	<button class="btn">누르셈</button>
+	<button class="btnshow">나타남</button>
 	<div class="box">안녕하세요.</div>
 	<script>
 		//$(".box").hide();
