@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jquery</title>
+	<style>
+		.box{display:block;}
+	</style>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script>
+
+	window.onload = function(){
+	document.getElementsByName("box")[0].style.displat = "none";
+	};
+	</script>
+</head>
+<body>
+
+	<div class="box">안녕하세요.</div>
+	<script>
+		//$(".box").hide();
+		document.getElementsByClassName("box")[0].style.display = "none"
+	</script>
+	
+</body>
+</html>
