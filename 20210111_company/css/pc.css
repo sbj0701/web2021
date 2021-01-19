@@ -1,17 +1,17 @@
 @charset "utf-8";
-header#main_header{height:1950px;position: relative;margin-bottom:100px;}
+header#main_header{height:1905px;position: relative;margin-bottom:100px;}
 
 /*header top*/
 #header_top{
-	width: 1260px;background:pink;
+	width: 980px;background:white;
 	position: fixed;left:50%;transform:translateX(-50%);
-	top:40px;z-index:1;
+	top:0px;z-index:1;
 }
 
-#header_top>h1{float: left;background:red;height: 50px;}
+#header_top>h1{float: left;background:red;height: 90px;}
 #main_menu{float: right;}
-#main_menu li{float: left;height: 50px;}
-#main_menu li a{display: block;line-height:50px;padding:0 30px;}
+#main_menu li{float: left;height: 90px;}
+#main_menu li a{display: block;line-height:90px;padding:0 30px;}
 .toggleMenu{display: none;}
 
 /*slier*/
@@ -24,10 +24,10 @@ header#main_header{height:1950px;position: relative;margin-bottom:100px;}
 
 }
 .sliderWrap li.slider_1st{
-	background-image: url(../images/mainimg01.jpg);
+	background-image: url(../images/arkangel.jpg);
 }
 .sliderWrap li.slider_2st{
-	background-image: url(../images/mainimg02.jpg);
+	background-image: url(../images/skylander.jpg);
 }
 
 
