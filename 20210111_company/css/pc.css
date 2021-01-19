@@ -3,12 +3,14 @@ header#main_header{height:1905px;position: relative;margin-bottom:100px;}
 
 /*header top*/
 #header_top{
-	width: 980px;background:white;
-	position: fixed;left:50%;transform:translateX(-50%);
+	width: 1905px;background:white;
+	position: fixed;left:50%;
+	transform:translateX(-50%);
 	top:0px;z-index:1;
 }
 
-#header_top>h1{float: left;background:red;height: 90px;}
+#header_top>h1{float: left;background:white;height: 90px;line-height: 90px;
+width:20%;position: fixed;left:20%;}
 #main_menu{float: right;}
 #main_menu li{float: left;height: 90px;}
 #main_menu li a{display: block;line-height:90px;padding:0 30px;}
@@ -32,8 +34,8 @@ header#main_header{height:1905px;position: relative;margin-bottom:100px;}
 
 
 .sliderWrap .slider_txt{
-	position: absolute;width: 500px;left:50%;margin-left:-250px;
-	text-align: center;color:white;top:30%;
+	position: absolute;width: 700px;left:60%;margin-left:-250px;
+	text-align: center;color:black;top:15%;
 }
 .sliderWrap .slider_txt h3{font-size:2em;}
 .sliderWrap .slider_txt h3:after{
